@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence", "Persistence\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{1CD009A8-5640-4E2B-AD1C-3748F03CAA42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seedwork.Abstractions", "Seedwork.Abstractions\Seedwork.Abstractions.csproj", "{F367F44E-3995-4918-A89B-9001EDC1BBDF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hbx.Seedwork.Abstractions", "Hbx.Seedwork.Abstractions\Hbx.Seedwork.Abstractions.csproj", "{F367F44E-3995-4918-A89B-9001EDC1BBDF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Resources", "Resources\Resources.csproj", "{41D63BC4-8BA2-461A-8E0B-ED7AC45F266A}"
 EndProject

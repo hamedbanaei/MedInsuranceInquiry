@@ -9,7 +9,11 @@
   <ItemGroup>
     <ProjectReference Include="..\Constants\Constants.csproj" />
     <ProjectReference Include="..\Resources\Resources.csproj" />
-    <ProjectReference Include="..\Seedwork.Abstractions\Seedwork.Abstractions.csproj" />
+    <ProjectReference Include="..\Hbx.Seedwork.Abstractions\Hbx.Seedwork.Abstractions.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Repositories\" />
   </ItemGroup>
 
 </Project>

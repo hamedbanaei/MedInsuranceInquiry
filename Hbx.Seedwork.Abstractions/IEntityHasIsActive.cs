@@ -1,4 +1,4 @@
-﻿namespace Seedwork.Abstractions;
+﻿namespace Hbx.Seedwork.Abstractions;
 
 public interface IEntityHasIsActive
 {
