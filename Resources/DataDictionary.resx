@@ -126,6 +126,9 @@
   <data name="InsertDateTime" xml:space="preserve">
     <value>Insert Time</value>
   </data>
+  <data name="InsuranceService" xml:space="preserve">
+    <value>Insurance Service</value>
+  </data>
   <data name="MaximumFund" xml:space="preserve">
     <value>Maximum Fund</value>
   </data>
@@ -134,6 +137,9 @@
   </data>
   <data name="Rate" xml:space="preserve">
     <value>Rate</value>
+  </data>
+  <data name="Request" xml:space="preserve">
+    <value>Request</value>
   </data>
   <data name="Title" xml:space="preserve">
     <value>Title</value>

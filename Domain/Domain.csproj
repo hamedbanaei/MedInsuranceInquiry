@@ -12,8 +12,4 @@
     <ProjectReference Include="..\Hbx.Seedwork.Abstractions\Hbx.Seedwork.Abstractions.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Repositories\" />
-  </ItemGroup>
-
 </Project>

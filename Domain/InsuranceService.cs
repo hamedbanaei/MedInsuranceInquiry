@@ -2,7 +2,7 @@
 
 namespace Domain;
 
-internal class InsuranceService :
+public class InsuranceService :
 	Seedwork.Entity
 {
 	#region Constructors
@@ -85,7 +85,7 @@ internal class InsuranceService :
 		maximum: Constants.MaxValue.Rate,
 		ErrorMessageResourceType = typeof(Resources.Messages.Validations),
 		ErrorMessageResourceName = nameof(Resources.Messages.Validations.Range))]
-	public long Rate { get; set; }
+	public float Rate { get; set; }
 	#endregion /Properties
 
 	#region Methods

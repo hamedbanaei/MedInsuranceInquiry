@@ -88,6 +88,15 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Insurance Service.
+        /// </summary>
+        public static string InsuranceService {
+            get {
+                return ResourceManager.GetString("InsuranceService", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Maximum Fund.
         /// </summary>
         public static string MaximumFund {
@@ -111,6 +120,15 @@ namespace Resources {
         public static string Rate {
             get {
                 return ResourceManager.GetString("Rate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Request.
+        /// </summary>
+        public static string Request {
+            get {
+                return ResourceManager.GetString("Request", resourceCulture);
             }
         }
         

@@ -1,8 +1,8 @@
-﻿using Microsoft.VisualBasic;
+﻿using System.Linq;
 
 namespace Domain;
 
-public class Request: 
+public class Request :
 	Seedwork.Entity
 {
 	#region Constructors
@@ -10,7 +10,7 @@ public class Request:
 	{
 		Title = title;
 
-		RequestDetails = 
+		RequestDetails =
 			new System.Collections.Generic.List<RequestDetail>();
 	}
 	#endregion /Constructors
@@ -41,6 +41,10 @@ public class Request:
 	#endregion /Properties
 
 	#region Methods
+	public float CalculateCoverage()
+	{
+		return (RequestDetails.Sum(p => p.CalculateCoverage()));
+	}
 	#endregion /Methods
 
 	#region Collections
