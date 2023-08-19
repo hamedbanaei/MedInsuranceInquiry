@@ -29,7 +29,7 @@ public class RequestDetail :
 	[System.ComponentModel.DataAnnotations.Display
 		(ResourceType = typeof(Resources.DataDictionary),
 		Name = nameof(Resources.DataDictionary.InsuranceService))]
-	public string? InsuranceServiceId { get; set; }
+	public System.Guid? InsuranceServiceId { get; set; }
 
 
 

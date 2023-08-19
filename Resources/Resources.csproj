@@ -12,6 +12,11 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>DataDictionary.resx</DependentUpon>
     </Compile>
+    <Compile Update="Messages\Validations.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Validations.resx</DependentUpon>
+    </Compile>
   </ItemGroup>
 
   <ItemGroup>
